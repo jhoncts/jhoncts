@@ -5,64 +5,70 @@
 <br/>
 
 <div align="center">
-  <a href="https://github.com/jhoncts?tab=repositories"><img src="https://img.shields.io/badge/PORTFÓLIO-Ver%20repositórios-161B22?style=for-the-badge&logo=github&logoColor=white" alt="Portfólio" /></a>
-  <a href="https://www.linkedin.com/in/jhon-cleiton/"><img src="https://img.shields.io/badge/LINKEDIN-Conectar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <img src="https://img.shields.io/badge/OPEN%20TO%20WORK-Python%20%7C%20Back--end%20%7C%20Automação-238636?style=for-the-badge" alt="Open to work" />
+  <a href="https://www.linkedin.com/in/jhon-cleiton/"><img src="https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/jhoncts?tab=repositories"><img src="https://img.shields.io/badge/Portfólio-Repositórios-161B22?style=for-the-badge&logo=github&logoColor=white" alt="Portfólio" /></a>
+  <img src="https://img.shields.io/badge/Open%20to%20Work-Python%20%7C%20Back--end%20%7C%20Automação-238636?style=for-the-badge" alt="Open to work" />
 </div>
 
 ## 👋 Sobre mim
 
 Sou **desenvolvedor Python** focado em **back-end, automação e aplicações desktop**, cursando Análise e Desenvolvimento de Sistemas.
 
-Gosto de transformar problemas reais e rotinas operacionais em software organizado, rastreável e fácil de usar. Meu portfólio reúne **APIs REST, regras de negócio, banco de dados, autenticação, testes automatizados e aplicações para Windows**.
+Meu foco é transformar problemas reais e rotinas operacionais em software organizado, rastreável e fácil de manter. Nos meus projetos você encontra **APIs REST, autenticação, regras de negócio, banco de dados, testes automatizados, CI e aplicações para Windows**.
 
-- 🐍 Foco atual: **Python, FastAPI, SQLAlchemy e arquitetura de software**
-- 🧪 Experiência com **processos técnicos, validações e rastreabilidade**
-- 🛠️ Desenvolvimento de soluções para **reduzir tarefas manuais e organizar fluxos operacionais**
-- 💼 Aberto a oportunidades em **Desenvolvimento Python, Back-end e Automação**
+- 🐍 **Python, FastAPI, SQLAlchemy e arquitetura de software**
+- 🧪 experiência com **processos técnicos, validações e rastreabilidade**
+- 🛠️ automação de tarefas e digitalização de fluxos operacionais
+- 💼 aberto a oportunidades em **Desenvolvimento Python, Back-end e Automação**
 
-## 🚀 Projetos em destaque
+## 🚀 Projetos principais
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🧪 ClimateTestManager
+### 🧪 ClimateTest Manager
 
-Sistema para gerenciamento de ensaios de resistência climática, criado para substituir controles manuais por um fluxo digital, auditável e centralizado.
+Sistema cliente-servidor para gerenciamento de ensaios de resistência climática, criado para substituir controles manuais por um fluxo digital, auditável e centralizado.
+
+[![Quality](https://github.com/jhoncts/ClimateTestManager/actions/workflows/quality.yml/badge.svg)](https://github.com/jhoncts/ClimateTestManager/actions/workflows/quality.yml)
 
 **Destaques**
-- arquitetura cliente-servidor;
+- regras de negócio e rastreabilidade;
 - autenticação e perfis de acesso;
-- regras de negócio, auditoria e rastreabilidade;
-- notificações, backups e distribuição para Windows.
+- SQLite + SQLAlchemy + Alembic;
+- notificações, backups e instalador Windows;
+- Pytest, Ruff e CI multiplataforma.
 
-**Stack:** `Python` `Flet` `SQLAlchemy` `SQLite` `Alembic` `Pytest`
+`Python` `Flet` `SQLAlchemy` `SQLite` `Alembic` `Pytest`
 
-[**➡️ Explorar ClimateTestManager**](https://github.com/jhoncts/ClimateTestManager)
+[**Explorar projeto →**](https://github.com/jhoncts/ClimateTestManager)
 
 </td>
 <td width="50%" valign="top">
 
 ### 🌵 Raízes do Nordeste API
 
-API REST com arquitetura em camadas para usuários, unidades, produtos, estoque, pedidos, pagamentos e auditoria.
+API REST com arquitetura em camadas para usuários, unidades, produtos, estoque, pedidos, pagamentos, fidelidade e auditoria.
+
+[![CI](https://github.com/jhoncts/RaizesDoNordesteAPI/actions/workflows/ci.yml/badge.svg)](https://github.com/jhoncts/RaizesDoNordesteAPI/actions/workflows/ci.yml)
 
 **Destaques**
 - autenticação JWT e controle de acesso;
 - regras de estoque e fluxo de pedidos;
 - migrations e persistência de dados;
-- Swagger e testes automatizados.
+- Swagger, Postman e diagramas;
+- testes automatizados e CI.
 
-**Stack:** `Python` `FastAPI` `SQLAlchemy` `Pydantic` `SQLite` `JWT`
+`Python` `FastAPI` `SQLAlchemy` `Pydantic` `SQLite` `JWT`
 
-[**➡️ Explorar Raízes do Nordeste API**](https://github.com/jhoncts/RaizesDoNordesteAPI)
+[**Explorar projeto →**](https://github.com/jhoncts/RaizesDoNordesteAPI)
 
 </td>
 </tr>
 </table>
 
-## 🛠️ Tecnologias
+## 🛠️ Stack
 
 <div align="center">
 
@@ -73,21 +79,21 @@ API REST com arquitetura em camadas para usuários, unidades, produtos, estoque,
 ![Alembic](https://img.shields.io/badge/Alembic-6BA81E?style=for-the-badge)
 ![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=windows11&logoColor=white)
 
 </div>
 
-## 💡 O que você encontra nos meus projetos
+## 💡 Como eu trabalho
 
 ```text
-APIs REST          → autenticação, permissões, documentação e regras de negócio
+Back-end           → APIs REST, autenticação, permissões e regras de negócio
 Banco de dados     → SQLAlchemy, SQLite, migrations e integridade de dados
-Qualidade          → Pytest, validações, tratamento de erros e organização em camadas
+Qualidade          → Pytest, validações, CI e tratamento de erros
 Automação          → redução de tarefas manuais e digitalização de processos
 Desktop / Windows  → aplicações Python, instalação e fluxos operacionais
-Git & GitHub       → versionamento, branches, commits e evolução contínua
+Git & GitHub       → versionamento, branches, commits e documentação
 ```
 
 ---
@@ -98,6 +104,4 @@ Git & GitHub       → versionamento, branches, commits e evolução contínua
   <a href="https://www.linkedin.com/in/jhon-cleiton/">LinkedIn</a>
   &nbsp;•&nbsp;
   <a href="https://github.com/jhoncts?tab=repositories">Projetos</a>
-  &nbsp;•&nbsp;
-  <a href="https://github.com/jhoncts">GitHub</a>
 </div>
